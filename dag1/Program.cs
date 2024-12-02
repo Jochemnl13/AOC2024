@@ -23,6 +23,7 @@
 
         int totalDiff = 0;
 
+        //Switch these two for(each) loops out with each other for the awnser for task 1 or 2
         //for (int i = 0; i < list1.Count; i++)
         //{
         //    int diff = Math.Abs(list1[i] - list2[i]);
