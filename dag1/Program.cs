@@ -3,19 +3,15 @@
     static void Main()
     {
         string filepath = "input.txt";
-        List<int> list1 = new List<int>();
-        List<int> list2 = new List<int>();
-
+        List<int> list1 = new();
+        List<int> list2 = new();
 
         foreach (var line in File.ReadAllLines(filepath))
         {
             var parts = line.Split(new[] { ' ', '\t' }, StringSplitOptions.RemoveEmptyEntries);
 
-            _ = int.TryParse(parts[0], out int first);
-            _ = int.TryParse(parts[1], out int second);
-
-            list1.Add(first);
-            list2.Add(second);
+            list1.Add(int.Parse(parts[0]));
+            list2.Add(int.Parse(parts[1]));
         }
 
         list1.Sort();
