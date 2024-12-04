@@ -7,7 +7,7 @@ Advent of code 2024
 Day 01: very easy 🦆  
 Day 02: Still very easy 🗿  
 Day 03: Switched to c++, oh boi 🤡  
-Day 04:  
+Day 04: First easy, second a bit less easy  
 Day 05:  
 Day 06:  
 Day 07:  
