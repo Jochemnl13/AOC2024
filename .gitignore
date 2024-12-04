@@ -134,3 +134,8 @@ _NCrunch*
 
 # Visual studio folders
 .vs/
+*.vcxproj
+*.vcxproj.filters
+
+# input.txt files
+input.txt
